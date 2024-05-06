@@ -4,14 +4,14 @@
 
 % Application: Parameter Estimation of Photovoltaic Models %
 
-% It is a basic code. It requires a fine tuning before applying to any applications %
+% It is a basic code. It requires a fine-tuning before applying to any applications %
 
 clc;
 clear;
 close all;
 
 N=30;
-Max_it=500; 
+Max_it=1000; 
 F_name='F1';
 
 [lb,ub,dim,fobj]=Get_Functions_details(F_name);
