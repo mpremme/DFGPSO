@@ -11,7 +11,7 @@ function [gbest, gpos, cg_curve] = DFGPSO(N, dim, lb, ub, T, fobj)
 
 	% Constants and Initialization
 	W_max = 0.9;
-	W_min = 0.4;
+	W_min = 0.1;
 
 	UB = ub .* ones(1, dim);
 	LB = lb .* ones(1, dim);
