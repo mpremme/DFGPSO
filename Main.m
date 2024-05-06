@@ -20,7 +20,7 @@ F_name='F1';
 
 
 % Display the comprehensive results
-disp(['The best of the final objective function values calculated over ',num2str(min(Best_fit))]);
+disp(['Best Fitness Value is',num2str(min(Best_fit))]);
 
 semilogy(CG_curve)
 xlabel('Iteration');
